@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import '/src/components/StudentList.css';
 
 const Students = () => {
     const [studentData, setStudentData] = useState([]);
@@ -25,7 +27,7 @@ const Students = () => {
             <ul>
                 {studentData.map(student => (
                     <li key={student.id}>
-                        {student.name} - {student.course}
+                        <Link to={`/details/${student.id}`}>{student.name}</Link> - {student.course}
                     </li>
                 ))}
             </ul>
