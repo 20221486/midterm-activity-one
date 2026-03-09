@@ -14,6 +14,7 @@ a. Visit -> https://vite.dev/guide/
         4. no
         5. no
 b. Go to your directory. (e.g., cd project/)
+
 c. Run "npm install" (Installs vite).
 d. Run "npm i react-router"
 e. Run "npm install react-bootstrap bootstrap"
