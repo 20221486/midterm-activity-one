@@ -13,12 +13,10 @@ a. Visit -> https://vite.dev/guide/
         3. Select JavaScript
         4. no
         5. no
-b. Go to your directory. (e.g., cd project/)
-
+b. Go to your directory. (e.g., cd [project-path])
 c. Run "npm install" (Installs vite).
 d. Run "npm i react-router"
 e. Run "npm install react-bootstrap bootstrap"
 f. Run "npm install react-router-dom"
-
 3. Run "npm run dev" to run the project.
 a. Copy the url that appears on your terminal: http://localhost:<port>
