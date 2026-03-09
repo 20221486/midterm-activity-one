@@ -1,13 +1,2 @@
-// src/pages/Home.jsx
-import React from "react";
-
-const Home = () => {
-    return (
-        <div>
-            <h2>Welcome to Student Dashboard</h2>
-            <p>This app demonstrates React Router, useState, and useEffect.</p>
-        </div>
-    );
-};
-
-export default Home;
+import React from 'react';
+export default () => <div>Home Page</div>;
